@@ -1,0 +1,13 @@
+#wizard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/wizard.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    z-index: 999;
+}
