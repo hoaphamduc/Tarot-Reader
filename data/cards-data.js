@@ -1399,6 +1399,17 @@ function getRandomTarotCard() {
     return tarotCards[randomKey];
 }
 
+function displayWizard() {
+    document.getElementById("wizardButton").disabled = true;
+    document.getElementById("tutorial").style.display = "none";
+    document.getElementById("name").textContent = "";
+    document.getElementById("img").src = "";
+    document.getElementById("describe").textContent = "";
+    document.getElementById("meaning").innerHTML = "";
+    document.getElementById("wizard").style.display = "block";
+    document.getElementById("thinking").value = "";
+}
+
 function displayTarotCard() {
     var card = getRandomTarotCard();
     document.getElementById("tutorial").style.display = "none";
@@ -1406,4 +1417,6 @@ function displayTarotCard() {
     document.getElementById("img").src = card.img;
     document.getElementById("describe").textContent = card.describe;
     document.getElementById("meaning").innerHTML = card.meaning;
+    document.getElementById("wizard").style.display = "none";
+    document.getElementById("wizardButton").disabled = false;
 }

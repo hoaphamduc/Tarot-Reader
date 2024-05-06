@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Tarot Reader by meobeo</title>
-    <meta property="og:title" content="Tarot Reader"/>
-    <meta property="og:description" content="A cute Tarot reading website" />
+    <meta property="og:title"           content="Tarot Reader"/>
+    <meta property="og:description"     content="A cute Tarot reading website" />
+    <meta property="og:image"           content="https://firebasestorage.googleapis.com/v0/b/saveimage-5dfc7.appspot.com/o/tarot.png?alt=media&token=be6c786e-d35d-408d-85de-a4954df20f35" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/music.css">
     <link rel="stylesheet" href="css/button-get-new-card.css">
@@ -24,7 +25,7 @@
         <source src="sound/music.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
-    <button type="button" class="btn" onclick="displayTarotCard()">
+    <button type="button" class="btn" id="wizardButton" onclick="displayWizard()">
         <strong>Bốc bài</strong>
         <div id="container-stars">
             <div id="stars"></div>
@@ -34,9 +35,12 @@
             <div class="circle"></div>
         </div>
     </button>
-    <!-- <div id="wizard">
-
-    </div> -->
+    <div id="wizard">
+        <div id="talk">
+            <input type="text" id="thinking" placeholder="Bạn đang nghĩ về điều gì?">
+            <button id="submit" onclick="displayTarotCard()">OK</button>
+        </div>
+    </div>
     <canvas id="sakura"></canvas>
     <div class="btnbg">
     </div>
