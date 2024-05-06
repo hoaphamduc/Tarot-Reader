@@ -459,6 +459,22 @@ var tarotCards = {
         <b>Con người:</b> Người yếu đuối. Đối tác không đủ năng lực. Người hay nghi ngờ khả năng của chính mình. Kẻ kiêu ngạo hay gây rắc rối.<br><br><br>\
         Theo Tarot Plain and Simple - <b>Anthony Louis</b>"
     },
+    "24": {
+        "name": "Lá Bài Three of Pentacles",
+        "img": ['img/card/24.jpg'],
+        "describe": "Công việc được hoàn thành tốt đẹp",
+        "meaning": "<b>Nghĩa xuôi:</b> Sử dụng tài năng một cách có ích.<br><br>\
+        <b>Từ và Cụm từ khóa:</b> Những giai đoạn ban đầu của thành tựu. Khoản thưởng đầu tiên. Tuyển dụng. Công việc liên quan địa vị. Cơ hội kiếm tiền. Khả năng cao hơn. Phát triển về chuyên môn. Địa vị được nâng cao. Tính cạnh tranh. Năng lực. Nỗ lực thực sự. Tiêu chuẩn cao. Tinh thông. Lành nghề. Làm việc đúng cách. Thành công nhờ kỹ năng. Sự hài lòng trong công việc. Chăm chỉ. Chú ý vào chi tiết. Cải thiện điều kiện làm việc.<br><br>\
+        Tiến bộ. Công nhận. Phê duyệt. Nâng cao địa vị xã hội. Vinh dự. Điểm số cao trong trường. Chứng nhận. Tiến bộ. Học tập điều mới. Nỗ lực của đồng đội. Tự tin. Nhận được lương hay tiếp nhận công việc. Đòi hỏi địa vị xã hội hay sự công nhận từ người khác. Được cấp bằng. Làm việc cho người khác. Nhận sự trợ giúp từ người khác. Sự cải thiện nhà ở và tài sản. Có thể có những thay đổi về nơi ở. Khởi đầu tốt đẹp.<br><br>\
+        <b>Tình huống và Lời khuyên:</b> Three of Pentacles là một lá bài của sự phát triển diễn ra trên phương diện vật lý. Tình huống này liên quan đến tiền của, nghề nghiệp, giáo dục, thể chất, một ngôi nhà hay dự án mang lại kết quả hữu hình. Bạn sẽ được thưởng vì làm việc thành thạo và sử dụng kỹ năng, kiến thức và tài năng. Bạn có thể có khởi đầu tốt đẹp và được công nhận là chuyên gia trong lĩnh vực mình theo đuổi. Bạn sẽ có cơ hội kiếm tiền vì những điều mình biết. Bạn khao khát địa vị, sự công nhận và chấp thuận từ người khác và cảm nhận thành tựu khi hoàn thành tốt công việc. Thăng chức là điều có thể xảy ra.<br><br>\
+        Bạn có thể sử dụng tài năng để cải thiện nhà cửa bằng cách sơn lại hay tân trang lại nó. Nếu là sinh viên, bạn sẽ đạt điểm số cao và nhận được tấm bằng. Nếu hỏi về tình cảm và các mối quan hệ, lá bài ít đề cập cảm xúc mà chủ yếu nhấn mạnh chủ nghĩa vật chất, địa vị, sự phán xét của xã hội, và áp lực gia đình.<br><br>\
+        <b>Con người:</b> Công nhân chăm chỉ. Cá nhân tài năng. Thợ thủ công. Công nhân có khả năng, cẩn thận và chăm chỉ. Người cầu toàn.<br><br><br>\
+        <b>Nghĩa ngược:</b> Rắc rối với công việc hoặc rắc rối ở nơi làm việc.<br><br>\
+        <b>Từ và Cụm từ khóa:</b> Mối nghi ngại về một dự án hoặc công việc kinh doanh. Trì hoãn. Ngừng làm việc. Đánh mất hứng thú. Thiếu hoạt động. Hướng đi sai trái. Cảm thấy bị lấn át hay vỡ mộng. Không thể kiểm soát năng lượng của mình. Tiềm năng chưa được phát hiện. Khó khăn trong quan hệ đối tác. Sự khác biệt của một ý tưởng. Hủy bỏ quan hệ đối tác kinh doanh. Sự bất đồng. Thương lượng thất bại. Những giá trị đặt sai chỗ. Sự tự ti. Tự hào quá mức. Không chú ý tới chi tiết. Lạm dụng tiền tài hay quyền lực. Những rắc rối về tài sản. Tin xấu. Một chuyến đi bị hoãn hay hủy bỏ. Không gì xảy ra.<br><br>\
+        <b>Tình huống và Lời khuyên:</b> Three of Pentacles ngược cho thấy nhu cầu học tập nhiều hơn, làm việc chăm chỉ hơn và đòi hỏi kỹ năng mới để hòan tất dự án quan trọng. Hãy cẩn thận đừng bỏ lỡ cơ hội vô giá vì lo ngại rủi ro. Người khác có thể quở trách bạn vì không biết bạn đang làm gì hay do bạn tạo ra những kết quả kém. Dù làm việc chăm chỉ, bạn vẫn thấy bị coi thường, hoặc không hài lòng hoặc chán ngán. Có thể bạn chú tâm quá nhiều vào việc đạt được sự chấp thuận và sự công nhận hơn là làm tốt công việc. Quan tâm quá mức đến việc nâng cao địa vị xã hội sẽ cản trở mối quan hệ thiết thực với người khác.<br><br>\
+        <b>Con người:</b> Kẻ biếng nhát. Người lao động phổ thông. Người mới vào nghề nhưng tự phụ. Công nhân nghèo. Kẻ bon chen.<br><br><br>\
+        Theo Tarot Plain and Simple - <b>Anthony Louis</b>"
+    },
     "26": {
         "name": "Lá Bài Five of Wands",
         "img": ['img/card/26.jpg'],
@@ -575,6 +591,22 @@ var tarotCards = {
         <b>Từ và Cụm từ khóa:</b> Sự cự tuyệt. Chia tay. Vỡ mộng. Chấm dứt quan hệ đối tác. Hủy bỏ một hợp đồng hay thỏa thuận ràng buộc. Mối quan hệ rắc rối. Không hợp nhau. Thiếu lòng trắc ẩn. Tình yêu không được đáp lại. Sự rời đi của một người yêu thương. Không tin tưởng. Không chung thủy. Cãi vã. Hiểu nhầm nhau. Bất đồng. Mâu thuẫn. Thái độ khinh suất. Đụng chạm lòng tin. Cho và nhận không công bằng. Một thỏa thuận bị phá vỡ. Không hòa hợp. Oán giận. Lòng căm thù. Sự tranh cãi. Tranh luận. Sự không công bằng. Ly thân. Ly hôn. Không dễ chia lìa. Chia ly là một nỗi đau khổ âm thầm. Tôi ghét bạn.<br><br>\
         <b>Tình huống và Lời khuyên:</b> Có thể bạn sẽ bận tâm đến việc xa rời người mình quan tâm. Có thể rơi vào trường hợp lòng tin tan vỡ, cự tuyệt, thái độ thận trọng, cảm giác tổn thương hoặc quan hệ đối tác không như mong đợi. Bầu không khí không hòa hợp xung quanh bạn. Một số người phẫn nộ trước tính ích kỷ và tranh cãi chắc chắn xảy ra. Một bên chỉ cho và bên còn lại chỉ nhận.<br><br>\
         <b>Con người:</b> Đối tác cũ. Người làm mất lòng tin của người khác. Người chỉ nhận mà không cho đi.<br><br><br>\
+        Theo Tarot Plain and Simple - <b>Anthony Louis</b>"
+    },
+    "38": {
+        "name": "Lá Bài Three of Cups",
+        "img": ['img/card/38.jpg'],
+        "describe": "Ăn mừng",
+        "meaning": "<b>Nghĩa xuôi:</b> Thời gian để vui mừng. Niềm vui.<br><br>\
+        <b>Từ và Cụm từ khóa:</b> Niềm hân hoan. Một dịp vui mừng. Sự hài lòng. Sum họp. Đoàn kết với người khác. Gia đình tụ họp. Thời gian hạnh phúc. Sở thích. Mọi thứ đã hoàn thành để thưởng thức. Sự hài lòng về việc hoàn thành bước đầu. Sự vui mừng. Một bữa tiệc. Cuộc sống gia đình sung túc. Vận may tốt lành. Niềm hạnh phúc. Sung túc cho mọi nhà. Tính hay vui đùa. Lòng mến khách. Không bị thiếu thốn. Lễ tặng thưởng. Thu hoạch vụ mùa.<br><br>\
+        Chia sẻ thời khắc đẹp đẽ. Sự thụ thai. Thời kỳ thai nghén. Có mang (đặc biệt nếu có lá Empress biểu thị sự sinh sôi xuất hiện ở vị trí xuôi trong lượt trải bài). Sự chào đời. Thành tựu. Sự chữa trị. Sức khỏe phục hồi. Giai đoạn đầu của những niềm hạnh phúc. Bắt đầu phong cách sống mới. Kết hôn. Tình trạng hôn nhân. Một hôn lễ. Ly hôn. Điều sắp diễn ra. Điều tốt đẹp. Nếu biết anh đến tôi đã nướng chiếc bánh rồi. Ăn uống và cùng vui vẻ.<br><br>\
+        <b>Tình huống và Lời khuyên:</b> Tổ chức buổi lễ kỷ niệm và giờ là thời điểm để vui vẻ. Sẵn sàng cho bữa tiệc, đam cưới, tốt nghiệp, thăng chức, sinh con và những dịp vui khác. Bạn sẽ chia vui cùng mọi người. Đây là thời điểm tổ chức ăn mừng nhưng vẫn phải tiếp tục làm việc. Nếu bạn kết hôn hay mang thai, hãy trông đợi kết quả tốt đẹp. Three of Cups nghĩa là kết hôn (hay ly hôn và có thể tái hôn) theo suy diễn của bạn. Trong một lượt giải bài tích cực, Three of Cups hứa hẹn sự bình phục sau đau ốm. Với câu hỏi về nghề nghiệp, Three of Cups cho thấy sở thích nhiều hơn là một nghề chuyên môn.<br><br>\
+        <b>Con người:</b> Người dự tiệc. Người có sở thích riêng. Người thích tiêu khiển. Nhân viên pha chế.<br><br><br>\
+        <b>Nghĩa ngược:</b> Nhiều quá có khi lại không tốt. Sự bê tha.<br><br>\
+        <b>Từ và Cụm từ khóa:</b> Bê tha quá mức. Chơi bời phóng đãng. Bội tín. Sự lãng mạn không theo ý muốn. Dư thừa có hại. Nghiện ngập. Say xỉn. Không có dịp tham gia với mọi người. Thú tận hưởng khoái lạc. Béo phì. Tính cẩu thả/bừa bãi. Quan hệ tình dục không có tình yêu. Than vãn. Ích kỷ. Những rắc rối trong hôn nhân. Khó khăn trong mang bầu. Sự cằn cỗi. Không có khả năng có con. Sự bóc lột. Tận dụng lợi thế của người khác.<br><br>\
+        Chìm đắm trong mớ cảm xúc. Không có lý do để ăn mừng. Lời mời bị rút lại. Hủy bỏ. Bạn sẽ không tham dự tiệc. Sự vui mừng  bị gián đoạn. Ly hôn. Một sự việc đáng buồn. Cái kết không hạnh phúc. Đau ốm. Sức khỏe yếu ớt. Không thể sử dụng những khả năng bẩm sinh. Lạm dụng. Đó là bữa tiệc của tôi, tôi có thể khóc nếu muốn. Nụ cười là vì cái gì?<br><br>\
+        <b>Tình huống và Lời khuyên:</b> Đám cưới bị hoãn lại. Một tình huống đáng lý hạnh phúc nhưng giờ lại mang đến đau khổ. Bạn có thể không thể tham dự buổi lễ hay dịp sum họp như dự định. Three of Cups ngược báo hiệu sự khoái lạc quá mức có thể làm hại sức khỏe của bạn. Chúng ta đều có những cái nghiện riêng có thể dẫn đến sự tha hóa của bản thân. Nhiều quá có khi lại không tốt và phải trả giá cho sự bê tha quá mức nhiều khả năng có thể xảy ra. Có thể bạn sẽ gặp rắc rối trong mối quan hệ tình cảm. Bạn và người yêu có thể đánh mất sự thích thú và không chung thủy với nhau nữa.<br><br>\
+        <b>Con người:</b> Người ích kỷ, hư hỏng và quá bê tha. Con nghiện. Kẻ phá đám. Người yêu không chung thủy. Những người bừa bãi (trong quan hệ tình dục)/người cẩu thả.<br><br><br>\
         Theo Tarot Plain and Simple - <b>Anthony Louis</b>"
     },
     "42": {
