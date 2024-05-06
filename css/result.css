@@ -1,0 +1,83 @@
+.result {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: calc(100% - 83px);
+    left: 10%;
+    top: 15px;
+    background-color: rgba(255, 255, 255, 0.3);    
+    overflow: auto;
+    padding: 10px;
+    color: #000;
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.result::-webkit-scrollbar {
+    display: none;
+}
+
+#tutorial {
+    z-index: 99;
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: calc(100% - 83px);
+    left: 10%;
+    top: 15px;
+    background-color: #fff;    
+    overflow: auto;
+    padding: 10px;
+    color: #000;
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    cursor: default;
+}
+
+#tutorial::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .result, #tutorial {
+        width: 94%;
+        left: 3%;
+    }
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    cursor: default;
+}
+
+.img {
+    max-width: 200px;
+    margin-top: 20px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.describe {
+    margin-top: 10px;
+    display: block;
+    color: #333333;
+    font-size: 12px;
+    cursor: default;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.meaning {
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: default;
+}
