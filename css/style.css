@@ -15,6 +15,7 @@ html {
     -ms-zoom: fixed;
     -ms-content-zooming: none;
     zoom: 1.0;
+    height: 100vh;
 }
 
 body {
