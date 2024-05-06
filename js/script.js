@@ -24,7 +24,6 @@
 
 document.addEventListener("copy", function(e) {
     e.preventDefault();
-    alert("Bạn không được phép copy.");
 });
 
 var isMusicPlaying = false;

@@ -1402,7 +1402,7 @@ function getRandomTarotCard() {
 function displayTarotCard() {
     var card = getRandomTarotCard();
     document.getElementById("tutorial").style.display = "none";
-    // document.getElementById("name").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    document.getElementById("hidden").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
     document.getElementById("name").textContent = card.name;
     document.getElementById("img").src = card.img;
     document.getElementById("describe").textContent = card.describe;
