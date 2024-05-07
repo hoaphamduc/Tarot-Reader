@@ -37,7 +37,27 @@
     </button>
     <div id="wizard">
         <div id="talk">
-            <input type="text" id="thinking" placeholder="Bạn đang nghĩ về điều gì?">
+            <select id="thinking">
+                <option value="" disabled selected hidden>Bạn đang nghĩ gì?</option>
+                <optgroup label="Tình yêu">
+                    <option value="love1">Hạnh phúc trong mối quan hệ</option>
+                    <option value="love2">Sự cảm thông và hiểu biết</option>
+                    <option value="love3">Thách thức trong tình yêu</option>
+                    <option value="love4">Tìm kiếm mối quan hệ mới</option>
+                </optgroup>
+                <optgroup label="Sự nghiệp">
+                    <option value="career1">Thăng tiến và thành công</option>
+                    <option value="career2">Khám phá cơ hội mới</option>
+                    <option value="career3">Thách thức và khó khăn</option>
+                    <option value="career4">Quyết định về sự nghiệp</option>
+                </optgroup>
+                <optgroup label="Sức khỏe">
+                    <option value="health1">Duy trì sức khỏe tốt</option>
+                    <option value="health2">Đối phó với căng thẳng và lo lắng</option>
+                    <option value="health3">Chăm sóc bản thân và tự yêu thương</option>
+                    <option value="health4">Tìm kiếm giải pháp cho vấn đề sức khỏe</option>
+                </optgroup>
+            </select>
             <button id="submit" onclick="displayTarotCard()">OK</button>
         </div>
     </div>
