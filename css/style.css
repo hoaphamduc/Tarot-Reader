@@ -45,3 +45,8 @@ body {
 .custom-list {
     list-style-type: circle;
 }
+
+.link {
+    text-decoration: none;
+    color: #0969da;
+}
