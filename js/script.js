@@ -84,6 +84,6 @@ document.getElementById("music").addEventListener("click", function () {
 });
 
 function toggleDonateInfo() {
-    var donateInfo = document.getElementById("donateInfo");
-    donateInfo.classList.toggle("show");
+    document.getElementById("donateInfo").classList.toggle("show");
+    document.getElementById("container").classList.toggle("darken");
 }
