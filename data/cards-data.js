@@ -1414,7 +1414,6 @@ function getRandomTarotCard() {
         case "love":
             randomIndex = Math.floor(Math.random() * love_theme.length);
             key = love_theme[randomIndex];
-            if (key < 10) {key = "0" + love_theme[randomIndex];}
             break;
         case "career":
             randomIndex = Math.floor(Math.random() * career_theme.length);
@@ -1428,6 +1427,7 @@ function getRandomTarotCard() {
             randomIndex = Math.floor(Math.random() * other_theme.length);
             key = other_theme[randomIndex];
     }
+    if (key < 10) {key = "0" + love_theme[randomIndex];}
     return tarotCards[key];
 }
 
