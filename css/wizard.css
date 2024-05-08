@@ -26,18 +26,30 @@
 }
 
 #thinking {
-    width: calc(100% - 50px);
+    width: calc(100% - 60px);
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10px;
     padding-left: 10px;
     padding-right: 5px;
     font-size: 14px;
+    color: #000;
+    border: none;
 }
 
-#thinking:focus {
-    border: none;
+#thinking option {
+    color: black;
+    background-color: white;
+}
+
+#thinking option:hover {
+    background-color: lightgray;
+}
+
+#thinking option:checked {
+    background-color: lightblue;
+    font-weight: bold;
 }
 
 #submit {

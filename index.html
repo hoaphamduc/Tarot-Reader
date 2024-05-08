@@ -39,24 +39,10 @@
         <div id="talk">
             <select id="thinking">
                 <option value="" disabled selected hidden>Bạn đang nghĩ gì?</option>
-                <optgroup label="Tình yêu">
-                    <option value="love1">Hạnh phúc trong mối quan hệ</option>
-                    <option value="love2">Sự cảm thông và hiểu biết</option>
-                    <option value="love3">Thách thức trong tình yêu</option>
-                    <option value="love4">Tìm kiếm mối quan hệ mới</option>
-                </optgroup>
-                <optgroup label="Sự nghiệp">
-                    <option value="career1">Thăng tiến và thành công</option>
-                    <option value="career2">Khám phá cơ hội mới</option>
-                    <option value="career3">Thách thức và khó khăn</option>
-                    <option value="career4">Quyết định về sự nghiệp</option>
-                </optgroup>
-                <optgroup label="Sức khỏe">
-                    <option value="health1">Duy trì sức khỏe tốt</option>
-                    <option value="health2">Đối phó với căng thẳng và lo lắng</option>
-                    <option value="health3">Chăm sóc bản thân và tự yêu thương</option>
-                    <option value="health4">Tìm kiếm giải pháp cho vấn đề sức khỏe</option>
-                </optgroup>
+                <option value="love">Tình yêu</option>
+                <option value="career">Sự nghiệp</option>
+                <option value="health">Sức khoẻ</option>
+                <option value="other">Khác</option>
             </select>
             <button id="submit" onclick="displayTarotCard()">OK</button>
         </div>
@@ -87,6 +73,7 @@
         <span class="name" id="name"></span>
         <img class="img" id="img">
         <span class="describe" id="describe"></span>
+        <span id="how-to-read"></span>
         <span class="meaning" id="meaning"></span>
     </div>
     <div id="donate"></div>

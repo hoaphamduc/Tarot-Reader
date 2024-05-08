@@ -1386,17 +1386,49 @@ var tarotCards = {
     }
 }
 
-var lastTwoCards = [null, null];
+const love_theme = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+const career_theme = [
+    14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47,
+    48, 49, 50, 51, 52, 53, 54, 55, 56, 57
+];
+
+const health_theme = [
+    58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71
+];
+
+const other_theme = [
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 
+    26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 
+    49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71
+];
 
 function getRandomTarotCard() {
-    var keys = Object.keys(tarotCards);
-    var randomKey;
-    do {
-        randomKey = keys[Math.floor(Math.random() * keys.length)];
-    } while (randomKey === lastTwoCards[0] || randomKey === lastTwoCards[1]);
-    lastTwoCards.shift();
-    lastTwoCards.push(randomKey);
-    return tarotCards[randomKey];
+    var selectElement = document.getElementById("thinking");
+    var selectedValue = selectElement.value;
+    var key;
+    var randomIndex;
+
+    switch (selectedValue) {
+        case "love":
+            randomIndex = Math.floor(Math.random() * love_theme.length);
+            key = love_theme[randomIndex];
+            if (key < 10) {key = "0" + love_theme[randomIndex];}
+            break;
+        case "career":
+            randomIndex = Math.floor(Math.random() * career_theme.length);
+            key = career_theme[randomIndex];
+            break;
+        case "health":
+            randomIndex = Math.floor(Math.random() * health_theme.length);
+            key = health_theme[randomIndex];
+            break;
+        default:
+            randomIndex = Math.floor(Math.random() * other_theme.length);
+            key = other_theme[randomIndex];
+    }
+    return tarotCards[key];
 }
 
 function displayWizard() {
@@ -1405,13 +1437,26 @@ function displayWizard() {
     document.getElementById("name").textContent = "";
     document.getElementById("img").src = "";
     document.getElementById("describe").textContent = "";
+    document.getElementById("how-to-read").textContent = "";
     document.getElementById("meaning").innerHTML = "";
     document.getElementById("wizard").style.display = "block";
     document.getElementById("thinking").value = "";
 }
 
 function displayTarotCard() {
+    var howToReadElement = document.getElementById("how-to-read");
+    var randomNumber = Math.round(Math.random());
+    
+    if (randomNumber === 0) {
+        howToReadElement.textContent = "Bạn sẽ đọc lá bài này theo nghĩa xuôi";
+    } else if (randomNumber === 1) {
+        howToReadElement.textContent = "Bạn sẽ đọc lá bài này theo nghĩa ngược";
+    } else {
+        console.log("Error");
+    }
+
     var card = getRandomTarotCard();
+    console.log(card);
     document.getElementById("tutorial").style.display = "none";
     document.getElementById("name").textContent = card.name;
     document.getElementById("img").src = card.img;

@@ -81,3 +81,10 @@
     font-size: 14px;
     cursor: default;
 }
+
+#how-to-read {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
