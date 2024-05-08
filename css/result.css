@@ -51,7 +51,7 @@
 }
 
 .name {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 600;
     display: block;
     cursor: default;
@@ -69,7 +69,7 @@
     margin-top: 10px;
     display: block;
     color: #333333;
-    font-size: 12px;
+    font-size: 17px;
     cursor: default;
     text-align: center;
     padding-left: 20px;
@@ -78,13 +78,28 @@
 
 .meaning {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 20px;
     cursor: default;
 }
 
 #how-to-read {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 17px;
     color: #000;
     font-weight: 600;
+}
+
+@media (max-width: 1500px) {
+    #how-to-read {
+        font-size: 14px;
+    }
+    .meaning {
+        font-size: 17px;
+    }
+    .describe {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 20px;
+    }
 }

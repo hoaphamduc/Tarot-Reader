@@ -14,7 +14,7 @@
 #donateInfo {
     z-index: 1999;
     position: absolute;
-    right: 10px;
+    right: -250px; /* Đặt ngoài màn hình bên phải */
     bottom: 60px;
     width: 250px;
     height: 250px;
@@ -25,11 +25,9 @@
     background-size: cover;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    opacity: 0;
-    transition: opacity 1.5s;
-    pointer-events: none;
+    transition: transform 0.3s ease-in-out;
 }
 
-#donate:hover + #donateInfo {
-    opacity: 1;
+#donateInfo.show {
+    transform: translateX(-260px);
 }

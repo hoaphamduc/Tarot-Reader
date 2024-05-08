@@ -85,3 +85,8 @@ document.getElementById("music").addEventListener("click", function () {
         playBackgroundMusic();
     }
 });
+
+function toggleDonateInfo() {
+    var donateInfo = document.getElementById("donateInfo");
+    donateInfo.classList.toggle("show");
+}
