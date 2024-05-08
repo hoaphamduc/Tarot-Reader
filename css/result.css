@@ -37,6 +37,7 @@
     overflow-x: hidden;
     overflow-y: scroll;
     cursor: default;
+    text-align: justify;
 }
 
 #tutorial::-webkit-scrollbar {
@@ -55,6 +56,7 @@
     font-weight: 600;
     display: block;
     cursor: default;
+    text-align: center;
 }
 
 .img {
@@ -107,12 +109,14 @@
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
 }
 
 .meaning {
     margin-top: 10px;
     font-size: 20px;
     cursor: default;
+    text-align: justify;
 }
 
 #how-to-read {
@@ -120,6 +124,7 @@
     font-size: 17px;
     color: #000;
     font-weight: 600;
+    text-align: center;
 }
 
 @media (max-width: 1500px) {
