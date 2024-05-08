@@ -1435,6 +1435,7 @@ function displayWizard() {
     document.getElementById("wizardButton").disabled = true;
     document.getElementById("tutorial").style.display = "none";
     document.getElementById("name").textContent = "";
+    document.getElementById("img").style.display = "none";
     document.getElementById("img").src = "";
     document.getElementById("describe").textContent = "";
     document.getElementById("how-to-read").textContent = "";
@@ -1459,6 +1460,7 @@ function displayTarotCard() {
     console.log(card);
     document.getElementById("tutorial").style.display = "none";
     document.getElementById("name").textContent = card.name;
+    document.getElementById("img").style.display = "block";
     document.getElementById("img").src = card.img;
     document.getElementById("describe").textContent = card.describe;
     document.getElementById("meaning").innerHTML = card.meaning;
