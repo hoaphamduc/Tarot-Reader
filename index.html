@@ -20,66 +20,71 @@
 </head>
 
 <body>
-    <img id="music" src="img/muted.png" onclick="toggleImageBorderAndMusic()">
-    <audio id="backgroundMusic" loop>
-        <source src="sound/music.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
-    <button type="button" class="btn" id="wizardButton" onclick="displayWizard()">
-        <strong>Bốc bài</strong>
-        <div id="container-stars">
-            <div id="stars"></div>
+    <img id="large-img">
+    <button id="close-larger-img" onclick="closeLargeImage()"></button>
+    <div id="container">
+        <img id="music" src="img/muted.png" onclick="toggleImageBorderAndMusic()">
+        <audio id="backgroundMusic" loop>
+            <source src="sound/music.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <button type="button" class="btn" id="wizardButton" onclick="displayWizard()">
+            <strong>Bốc bài</strong>
+            <div id="container-stars">
+                <div id="stars"></div>
+            </div>
+            <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </button>
+        <div id="wizard">
+            <div id="talk">
+                <select id="thinking">
+                    <option value="" disabled selected hidden>Bạn đang nghĩ gì?</option>
+                    <option value="love">Tình yêu</option>
+                    <option value="career">Sự nghiệp</option>
+                    <option value="health">Sức khoẻ</option>
+                    <option value="other">Khác</option>
+                </select>
+                <button id="submit" onclick="displayTarotCard()">OK</button>
+            </div>
         </div>
-        <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
+        <canvas id="sakura"></canvas>
+        <div class="btnbg">
         </div>
-    </button>
-    <div id="wizard">
-        <div id="talk">
-            <select id="thinking">
-                <option value="" disabled selected hidden>Bạn đang nghĩ gì?</option>
-                <option value="love">Tình yêu</option>
-                <option value="career">Sự nghiệp</option>
-                <option value="health">Sức khoẻ</option>
-                <option value="other">Khác</option>
-            </select>
-            <button id="submit" onclick="displayTarotCard()">OK</button>
+        <div id="tutorial">
+            <span style="font-weight: 600; font-size: 20px;">Chào mừng bạn đến với Tarot Reader của meobeo. Cảm ơn các bạn đã ghé thăm trang web của mình!</span><br><br><br>
+            <span>Dưới đây là những hướng dẫn cơ bản để bạn có thể tận hưởng trải nghiệm xem bài Tarot một cách dễ dàng:<br><br>
+                <b>Bước 1: Chuẩn bị</b><br><br>
+                Trước tiên, hãy chọn một không gian yên tĩnh và tạo điều kiện thuận lợi cho sự tập trung. Nếu có câu hỏi cụ thể hoặc vấn đề bạn muốn giải quyết, hãy ghi lại để sử dụng sau này.<br><br>
+                <b>Bước 2: Bốc bài</b><br><br>
+                <b>•</b> Tập trung vào câu hỏi hoặc vấn đề bạn muốn giải quyết.<br>
+                <b>•</b> Chọn số lượng lá bài phù hợp với câu hỏi hoặc vấn đề của bạn. Có thể là một lá bài, ba lá bài (trong việc sử dụng cơ sở của "Quá khư, Hiện tại, Tương lai"), hoặc bất kỳ số lượng nào bạn cảm thấy phù hợp.<br>
+                <b>•</b> Khi bạn đã chọn số lượng lá bài, hãy nhấn nút "Bốc bài" để rút ngẫu nhiên từ bộ bài. Bạn có thể rút và xem các lá bài cho đến khi đủ số lượng mong muốn.<br><br>
+                <b>Bước 3: Hiểu ý nghĩa</b><br><br>
+                Khi lá bài Tarot xuất hiện, hãy dành thời gian để quan sát và suy nghĩ về hình ảnh, ký hiệu và ý nghĩa của nó. Lưu ý rằng mỗi lá bài có thể đại diện cho một khía cạnh khác nhau của cuộc sống và tình huống của bạn.<br><br>
+                <b>Bước 4: Suy ngẫm và hành động</b><br><br>
+                Sau khi đã hiểu ý nghĩa của lá bài, hãy suy ngẫm về cách thông điệp của nó áp dụng vào tình huống hoặc câu hỏi của bạn. Xem xét những hành động cụ thể bạn có thể thực hiện để đạt được mục tiêu hoặc giải quyết vấn đề của mình. Lưu ý rằng lá bài Tarot không phải là dự đoán tương lai tuyệt đối, mà thay vào đó là một công cụ hỗ trợ để bạn đưa ra quyết định và phát triển bản thân.<br><br>
+                <b>Bước 5: Ghi chú và tự phân tích</b><br><br>
+                Cuối cùng, hãy ghi lại lá bài bạn đã bốc và ý nghĩa của nó. Sử dụng ghi chú này để tự phân tích và theo dõi tiến trình của bạn trong việc hiểu biết về Tarot và bản thân.<br><br>
+                <hr><br>
+                Hy vọng rằng hướng dẫn trên sẽ giúp bạn có một trải nghiệm xem bài Tarot thú vị và bổ ích trên trang web của mình! Nếu có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với mình thông qua <a href="mailto:hoaphamduc2399@gmail.com">Email</a>. Chúc bạn có những phút giây tuyệt vời với Tarot!
+            </span>
         </div>
-    </div>
-    <canvas id="sakura"></canvas>
-    <div class="btnbg">
-    </div>
-    <div id="tutorial">
-        <span style="font-weight: 600; font-size: 20px;">Chào mừng bạn đến với Tarot Reader của meobeo. Cảm ơn các bạn đã ghé thăm trang web của mình!</span><br><br><br>
-        <span>Dưới đây là những hướng dẫn cơ bản để bạn có thể tận hưởng trải nghiệm xem bài Tarot một cách dễ dàng:<br><br>
-            <b>Bước 1: Chuẩn bị</b><br><br>
-            Trước tiên, hãy chọn một không gian yên tĩnh và tạo điều kiện thuận lợi cho sự tập trung. Nếu có câu hỏi cụ thể hoặc vấn đề bạn muốn giải quyết, hãy ghi lại để sử dụng sau này.<br><br>
-            <b>Bước 2: Bốc bài</b><br><br>
-            <b>•</b> Tập trung vào câu hỏi hoặc vấn đề bạn muốn giải quyết.<br>
-            <b>•</b> Chọn số lượng lá bài phù hợp với câu hỏi hoặc vấn đề của bạn. Có thể là một lá bài, ba lá bài (trong việc sử dụng cơ sở của "Quá khư, Hiện tại, Tương lai"), hoặc bất kỳ số lượng nào bạn cảm thấy phù hợp.<br>
-            <b>•</b> Khi bạn đã chọn số lượng lá bài, hãy nhấn nút "Bốc bài" để rút ngẫu nhiên từ bộ bài. Bạn có thể rút và xem các lá bài cho đến khi đủ số lượng mong muốn.<br><br>
-            <b>Bước 3: Hiểu ý nghĩa</b><br><br>
-            Khi lá bài Tarot xuất hiện, hãy dành thời gian để quan sát và suy nghĩ về hình ảnh, ký hiệu và ý nghĩa của nó. Lưu ý rằng mỗi lá bài có thể đại diện cho một khía cạnh khác nhau của cuộc sống và tình huống của bạn.<br><br>
-            <b>Bước 4: Suy ngẫm và hành động</b><br><br>
-            Sau khi đã hiểu ý nghĩa của lá bài, hãy suy ngẫm về cách thông điệp của nó áp dụng vào tình huống hoặc câu hỏi của bạn. Xem xét những hành động cụ thể bạn có thể thực hiện để đạt được mục tiêu hoặc giải quyết vấn đề của mình. Lưu ý rằng lá bài Tarot không phải là dự đoán tương lai tuyệt đối, mà thay vào đó là một công cụ hỗ trợ để bạn đưa ra quyết định và phát triển bản thân.<br><br>
-            <b>Bước 5: Ghi chú và tự phân tích</b><br><br>
-            Cuối cùng, hãy ghi lại lá bài bạn đã bốc và ý nghĩa của nó. Sử dụng ghi chú này để tự phân tích và theo dõi tiến trình của bạn trong việc hiểu biết về Tarot và bản thân.<br><br>
-            <hr><br>
-            Hy vọng rằng hướng dẫn trên sẽ giúp bạn có một trải nghiệm xem bài Tarot thú vị và bổ ích trên trang web của mình! Nếu có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với mình thông qua <a href="mailto:hoaphamduc2399@gmail.com">Email</a>. Chúc bạn có những phút giây tuyệt vời với Tarot!
-        </span>
-    </div>
-    <div class="result" id="result">
-        <span class="name" id="name"></span>
-        <img class="img" id="img">
-        <span class="describe" id="describe"></span>
-        <span id="how-to-read"></span>
-        <span class="meaning" id="meaning"></span>
-    </div>
-    <div id="donate" onclick="toggleDonateInfo()"></div>
-    <div id="donateInfo">
-        <span id="donate-title">Mua cho tui cái gì ngon ngon đii</span>
-        <span id="thanks">Cảm ơn mọi người ạ &#9829;</span>
+        <div class="result" id="result">
+            <span class="name" id="name"></span>
+            <img class="img" id="img" onclick="openLargeImage()">
+            <span class="describe" id="describe"></span>
+            <span id="how-to-read"></span>
+            <span class="meaning" id="meaning"></span>
+        </div>
+        
+        <div id="donate" onclick="toggleDonateInfo()"></div>
+        <div id="donateInfo">
+            <span id="donate-title">Mua cho tui cái gì ngon ngon đii</span>
+            <span id="thanks">Cảm ơn mọi người ạ &#9829;</span>
+        </div>
     </div>
 </body>
 

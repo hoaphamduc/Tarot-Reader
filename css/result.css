@@ -63,6 +63,39 @@
     display: block;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+#large-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    border-radius: 15px;
+    z-index: 9999;
+    display: none;
+}
+
+#close-larger-img {
+    position: absolute;
+    background-image: url(../img/icon/xmark-solid.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.3);  
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: 5px;
+    z-index: 10000;
+    cursor: pointer;
+    display: none;
+}
+
+.darken {
+    filter: brightness(0.3);
 }
 
 .describe {

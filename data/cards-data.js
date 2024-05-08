@@ -1438,6 +1438,7 @@ function displayWizard() {
     document.getElementById("img").style.display = "none";
     document.getElementById("img").src = "";
     document.getElementById('img').style.transform = "none";
+    document.getElementById("large-img").src = "";
     document.getElementById("describe").textContent = "";
     document.getElementById("how-to-read").textContent = "";
     document.getElementById("meaning").innerHTML = "";
@@ -1464,8 +1465,21 @@ function displayTarotCard() {
     document.getElementById("name").textContent = card.name;
     document.getElementById("img").style.display = "block";
     document.getElementById("img").src = card.img;
+    document.getElementById("large-img").src = card.img;
     document.getElementById("describe").textContent = card.describe;
     document.getElementById("meaning").innerHTML = card.meaning;
     document.getElementById("wizard").style.display = "none";
     document.getElementById("wizardButton").disabled = false;
+}
+
+function openLargeImage() {
+    document.getElementById("large-img").style.display = "block";
+    document.getElementById("container").classList.add("darken");
+    document.getElementById("close-larger-img").style.display = "block";
+}
+
+function closeLargeImage() {
+    document.getElementById("large-img").style.display = "none";
+    document.getElementById("container").classList.remove("darken");
+    document.getElementById("close-larger-img").style.display = "none";
 }
