@@ -1437,6 +1437,7 @@ function displayWizard() {
     document.getElementById("name").textContent = "";
     document.getElementById("img").style.display = "none";
     document.getElementById("img").src = "";
+    document.getElementById('img').style.transform = "none";
     document.getElementById("describe").textContent = "";
     document.getElementById("how-to-read").textContent = "";
     document.getElementById("meaning").innerHTML = "";
@@ -1452,6 +1453,7 @@ function displayTarotCard() {
         howToReadElement.textContent = "Bạn sẽ đọc lá bài này theo nghĩa xuôi";
     } else if (randomNumber === 1) {
         howToReadElement.textContent = "Bạn sẽ đọc lá bài này theo nghĩa ngược";
+        document.getElementById('img').style.transform = "rotate(180deg)";
     } else {
         console.log("Error");
     }
