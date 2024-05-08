@@ -31,3 +31,21 @@
 #donateInfo.show {
     transform: translateX(-260px);
 }
+
+#donate-title {
+    width: 100%;
+    position: absolute;
+    top: 2px;
+    font-size: 12px;
+    text-align: center;
+    cursor: default;
+}
+
+#thanks {
+    width: 100%;
+    position: absolute;
+    bottom: 2px;
+    font-size: 12px;
+    text-align: center;
+    cursor: default;
+}
