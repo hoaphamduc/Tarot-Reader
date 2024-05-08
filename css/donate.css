@@ -9,12 +9,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 #donateInfo {
     z-index: 1999;
     position: absolute;
-    right: -250px; /* Đặt ngoài màn hình bên phải */
+    right: -250px;
     bottom: 60px;
     width: 250px;
     height: 250px;
