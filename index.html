@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/sakura.css">
     <script src="js/sakura.js"></script>
     <link rel="icon" type="image/png" href="img/tarot.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -80,10 +81,13 @@
             <span class="meaning" id="meaning"></span>
         </div>
         
-        <div id="donate" onclick="toggleDonateInfo()"></div>
+        <!-- <div id="donate" onclick="toggleDonateInfo()"></div>
         <div id="donateInfo">
             <span id="donate-title">Mua cho tui cái gì ngon ngon đii</span>
             <span id="thanks">Cảm ơn mọi người ạ &#9829;</span>
+        </div> -->
+        <div id="download-container" onclick="downloadFile()">
+            <img id="android-download" src="img/icon/android.svg">
         </div>
     </div>
 </body>

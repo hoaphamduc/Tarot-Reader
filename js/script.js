@@ -16,10 +16,9 @@ window.addEventListener('keydown', function (event) {
 
 window.addEventListener('contextmenu', function (event) { 
   event.preventDefault();
-  console.log('DevTools đã bị chặn.');
 });
 
-document.addEventListener("copy", function(e) {
+document.addEventListener("copy", function (e) {
     e.preventDefault();
 });
 
@@ -86,4 +85,27 @@ document.getElementById("music").addEventListener("click", function () {
 function toggleDonateInfo() {
     var donateInfo = document.getElementById("donateInfo");
     donateInfo.classList.toggle("show");
+}
+
+function downloadFile() {
+    Swal.fire({
+        title: 'Tải ứng dụng Android',
+        text: "Bạn sẽ tải xuống file apk để cài đặt. Bạn muốn tiếp tục chứ?",
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Tiếp tục',
+        cancelButtonText: 'Hủy bỏ'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            var apkUrl = 'TarotReader.apk';
+            var a = document.createElement('a');
+            a.href = apkUrl;
+            a.download = 'TarotReader.apk';
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+        }
+    });
 }
