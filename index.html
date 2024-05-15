@@ -28,7 +28,7 @@
     <img id="large-img">
     <button id="close-larger-img" onclick="closeLargeImage()"></button>
     <div id="container">
-        <img id="music" src="img/muted.png" onclick="toggleImageBorderAndMusic()">
+        <img id="music" alt="music icon" src="img/muted.png" onclick="toggleImageBorderAndMusic()">
         <audio id="backgroundMusic" loop>
             <source src="sound/music.mp3" type="audio/mp3">
             Your browser does not support the audio element.
@@ -44,7 +44,7 @@
             </div>
         </button>
         <div id="wizard">
-            <img src="img/wizard.png">
+            <img src="img/wizard.png" alt="wizard">
             <div id="talk">
                 <select id="thinking">
                     <option value="" disabled selected hidden>Bạn đang nghĩ gì?</option>
@@ -80,7 +80,7 @@
         </div>
         <div class="result" id="result">
             <span class="name" id="name"></span>
-            <img class="img" id="img" onclick="openLargeImage()">
+            <img class="img" id="img" alt="card" onclick="openLargeImage()">
             <span class="describe" id="describe"></span>
             <span id="how-to-read"></span>
             <span class="meaning" id="meaning"></span>
@@ -92,7 +92,7 @@
             <span id="thanks">Cảm ơn mọi người ạ &#9829;</span>
         </div> -->
         <div id="download-container" onclick="downloadFile()">
-            <img id="android-download" src="img/icon/android.svg">
+            <img id="android-download" alt="download apk file" src="img/icon/android.svg">
         </div>
     </div>
 </body>
