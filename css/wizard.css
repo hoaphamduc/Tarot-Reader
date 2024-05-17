@@ -39,6 +39,7 @@
     color: #000;
     border: none;
     border-radius: 3px;
+    outline: none;
 }
 
 #thinking option {
