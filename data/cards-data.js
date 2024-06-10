@@ -1162,7 +1162,7 @@ var tarotCards = {
         "name": "Lá Bài Two of Pentacles",
         "img": ['img/card/65.jpg'],
         "describe": "Sự thăng trầm",
-        "meaning": "<b>Nghĩa xuôi:</b> Cân bằng tài chính. Sự linh hoạt cần thiết.br><br>\
+        "meaning": "<b>Nghĩa xuôi:</b> Cân bằng tài chính. Sự linh hoạt cần thiết.<br><br>\
         <b>Từ và Cụm từ khóa:</b> Cân bằng nhiều nghĩa vụ cùng lúc. Lâm vào tình thế chênh vênh. Tình huống khó xử. Đối phó với những biến đổi thường ngày. Những biến động tiền tệ. Làm từ hai nghề hoặc nhiều hơn. Chia nhỏ nguồn tài nguyên. Hành động cân bằng. Làm việc chăm chỉ để kiếm tiền đủ sống và không mắc nợ. Hỗ trợ sự sáng tạo. Tài nguyên phân bố thưa thớt. Thao tác khéo léo. Giải quyết nhiều dự án cùng lúc. Nhiều trách nhiệm.<br><br>\
         Cần có kế hoạch. Tin tốt lành. Món quà. Thay đổi nghề nghiệp hay môi trường. Một mối quan hệ mới. Khởi đầu. Dịch chuyển làm thay đổi cuộc sống của bạn. Một chuyến du ngoạn. Mọi thứ thay đổi. Của thiên trả địa. Vay chỗ này đắp chỗ kia. Xuôi theo tình thế. Thời gian là vàng.<br><br>\
         <b>Tình huống và Lời khuyên:</b> Bạn đang cố gắng giải quyết nhiều vấn đề cùng lúc. Có lẽ bạn không còn thích thú công việc của mình như trước đây nữa vì giờ đây nó là một nhiệm vụ hay nghĩa vụ. Bạn đang cố làm hài lòng người khác mà quên đi chính mình. Bạn phải biết sắp xếp thời gian một cách khôn ngoan. Tài chính không ổn định và bạn phải cần bằng nó.<br><br>\
